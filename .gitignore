@@ -1,0 +1,59 @@
+# .NET
+bin/
+obj/
+.vs/
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer patches
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows installer logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code directories
+.vscode/
+
+# Rider IDE directories
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mac OS X specific
+.DS_Store
+
+# JetBrains Rider
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET
+wwwroot/
+
+# Publish output
+.publish/
+
+# NUnit
+test-*.xml
+
