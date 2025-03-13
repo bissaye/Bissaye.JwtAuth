@@ -103,7 +103,6 @@ namespace Bissaye.JwtAuth.Services.Concretes
                     }
                 }
             }
-            int a = 1;
             return obj;
         }
 
