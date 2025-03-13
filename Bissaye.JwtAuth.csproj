@@ -4,10 +4,25 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <PackageId>Bissaye.JwtAuth</PackageId>
+	  
+	  <Version>1.0.0</Version>
+
+	  <Authors>Franck BISSAYE</Authors>
+	  <Company>Bissaye (BSSY) </Company>
+	  <Description>.NET package that facilitates the implementation of JWT (JSON Web Token based on microsoft.aspnetcore.authentication.jwtbearer) authentication and the management of access and refresh tokens.</Description>
+	  <PackageTags>JWT, Authentication, .NET, Bissaye, Bssy</PackageTags>
+	  <RepositoryUrl>https://github.com/bissaye/Bissaye.JwtAuth</RepositoryUrl>
+	  <PackageLicenseExpression>BISSAYE</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/bissaye/Bissaye.JwtAuth</PackageProjectUrl>
+	  <PackageIconUrl>https://lh3.googleusercontent.com/pw/AP1GczMd6-u7icBhfjvvWa4ICU1r2020Kmi1QzNmvQj1FkBfobSgscI5acIIaNkYR0XeNZR1jioskAo711c-TESVbllQYWBqJRB78ChZ65aaM8ZdPxasxsbnYQJ34PEKRXZbanX4wguzdw4ZJi9TT76DqPNtpQ=w425-h412-s-no-gm?authuser=0</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
   </ItemGroup>
+	
+
 
 </Project>
