@@ -15,7 +15,6 @@
 	  <PackageTags>JWT, Authentication, .NET, Bissaye, Bssy</PackageTags>
 	  <RepositoryUrl>https://github.com/bissaye/Bissaye.JwtAuth</RepositoryUrl>
 	  <PackageProjectUrl>https://github.com/bissaye/Bissaye.JwtAuth</PackageProjectUrl>
-	  <PackageIconUrl>https://lh3.googleusercontent.com/pw/AP1GczMd6-u7icBhfjvvWa4ICU1r2020Kmi1QzNmvQj1FkBfobSgscI5acIIaNkYR0XeNZR1jioskAo711c-TESVbllQYWBqJRB78ChZ65aaM8ZdPxasxsbnYQJ34PEKRXZbanX4wguzdw4ZJi9TT76DqPNtpQ=w425-h412-s-no-gm?authuser=0</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
