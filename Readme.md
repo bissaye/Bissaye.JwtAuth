@@ -45,10 +45,12 @@ you can also add your own configs on the jwtbearerevents (or cookie configs) of 
 ```csharp
 builder.Services.AddBissayeJwtAuth(builder.Configuration, configureJwtBearerEvents: options =>
 {
-	options.Events.OnTokenValidated = context =>
+	options = new JwtBearerEvents {
 	{
 		// your code here
-		return Task.CompletedTask;
+		OnChallenge = (context) => {...}
+		OnAuthenticationFailed = (context) => {...}
+		...
 	};
 });
 ```
