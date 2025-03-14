@@ -92,3 +92,4 @@ var userClaims = tokenService.GetClaimsValue<MyUserClass>(User);
 ## Contribution
 
 Contributions are welcome! Feel free to suggest improvements via PRs or issues.
+Thanks !!!
